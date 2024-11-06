@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.arima {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.arial{
+    font-family: "Arima", system-ui;
+}
+.font{
+    font-family:"Danfo", serif;
+}
+.class{
+    text-decoration:underline;
+}
+.mistake{
+    text-decoration:line-through;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.round{
+    color:orangered;
+}
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.four{
+    color: blueviolet;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.but1{
+    background-color:blueviolet;
+    border: 0;
+    padding: 3px 25px 3px 25px;
+    color: white;
+}
+.but2{
+    background-color: rgb(55, 18, 89);
+    border:0px;
+    padding: 3px 25px 3px 25px;
+    color: white;
+}
+.but2:hover{
+    background-color: rgb(178, 127, 224);
+}
+.but3{
+    background-color:rgb(205, 174, 234);
+    border: 0;
+    padding: 3px 25px 3px 25px;
+    color: white;
+}
+.but3:active{
+    background-color: rgb(70, 61, 79);
+
+}
+section{
+    margin: 100px;
+}
